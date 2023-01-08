@@ -3,10 +3,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Parul-Geete/config-server.git
+          uri: https://github.com/Parul-Geete/config-repo.git
           cloneOnStart: true
           default-label: main
 server:
   port: 8888
-
-
